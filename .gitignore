@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+bin/
+include/
+lib/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Generated files and folders
+generated_images/
+cuet_questions.csv
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
