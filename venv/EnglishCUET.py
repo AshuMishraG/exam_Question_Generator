@@ -151,7 +151,7 @@ def process_response(response):
         return None
 
 # Main function to generate the CSV file
-def generate_cuet_csv(output_file="cuet_questions.csv", target_questions=50):
+def generate_cuet_csv(output_file="cuet_eng_questions.csv", target_questions=50):
     questions_data = []
 
     while len(questions_data) < target_questions:
@@ -180,4 +180,4 @@ def generate_cuet_csv(output_file="cuet_questions.csv", target_questions=50):
 
 # Run the script
 if __name__ == "__main__":
-    generate_cuet_csv(target_questions=5)
+    generate_cuet_csv(target_questions=50)
